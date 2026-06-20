@@ -1,0 +1,6 @@
+'Return a new Data Frame with no empty cells.
+
+import pandas as pd
+df = pd.read_csv('data.csv')
+new_df = df.dropna()
+print(new_df.to_string())
